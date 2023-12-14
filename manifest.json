@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "ZERION",
+    "version": "1.0.0",
+
+
+    "browser_action":
+    {
+        "browser_style": true,
+        "default_icon":
+        {
+            "16": "/fav/chrome-icon-16x16.png",
+            "32": "/fav/chrome-icon-32x32.png",
+            "48": "/fav/chrome-icon-48x48.png",
+            "128": "/fav/chrome-icon-128x128.png"
+
+        },
+        "default_title": "ZERION",
+        "default_popup": "index.html"
+    },
+    "description": "ZERION",
+    "icons":
+    {
+        "16": "/fav/chrome-icon-16x16.png",
+        "32": "/fav/chrome-icon-32x32.png",
+        "48": "/fav/chrome-icon-48x48.png",
+        "128": "/fav/chrome-icon-128x128.png"
+    },
+
+    "permissions": [
+        "storage"
+    ]
+}

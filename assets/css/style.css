@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 357px;
+    margin: 0px;
+    padding: 15px;
+    height: 600px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.home-page{
+    background: white;
+}
+
+.home-page .img{
+    padding: 160px 0px;
+}
+
+.text-clr{
+    color: #2962ef;
+    font-size: 55px;
+}
+
+.fs-30{
+    font-size: 30px;
+    line-height: 1.2;
+}
+
+.p{
+    font-size: 17px;
+    color: #959595;
+}
+
+.slide div {
+    width: 31.5%;
+    border: 2px solid #dfdfdfd9;
+    border-radius: 100px;
+}
+
+.btn-next{
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.active{
+    border-color: #0d6efd !important;
+}
+
+.p-126{
+    padding: 126px 0px;
+}
+
+.p-108{
+    padding: 108px 0px;;
+}
+
+.one-wallet-header .img{
+    padding-bottom: 263px;
+    margin: -15px;
+}
+
+.fs-28{
+    font-size: 28px;
+}
+
+.p-325{
+    padding-bottom: 325px;
+}
+
+.fs-20{
+    font-size: 20px;;
+}
+
+.c-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+    cursor: pointer;
+    user-select: none;
+}
+
+input::placeholder{
+    font-size: 12px;
+}
